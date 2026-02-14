@@ -1,0 +1,91 @@
+body{
+    font-family: "DM Sans",sans-serif;
+}
+details > summary::marker{
+    display: none;
+    content:'';
+}
+.abt{
+    width: 150%;
+    height: 100%;
+    background-color: #00BFFF;
+    border:100% solid #00BFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+.head1 {
+    padding: 30px;
+}
+.head_cont {
+    max-width:60%;
+    margin-inline:auto;
+}
+.head_cont_nav {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.display {
+    display:flex;
+    list-style: none;
+    gap:20%;
+}
+.ss1{
+    position: relative;
+    color: var(--black);
+    transition: color 0.3s;
+}
+.ss1:hover{
+    color:#00BFFF ;
+}
+.ss{
+    position: relative;
+    color:var(--black) ;
+    font-size: 120%;
+    transition: color 0.3s;
+}
+.ss:hover{
+    color: #00BFFF;
+}
+.nabor_div {
+    max-width: 1000;
+    margin-inline:auto ;
+}
+.nabor_nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.n1 {
+    display: flex;
+    gap: 29px;
+    list-style: none;
+
+}
+.n2 {
+    display: flex;
+    gap: 29px;
+    list-style: none;
+
+    
+}
+.n3 {
+   display: flex;
+   list-style: none;
+   gap: 29px;
+}
+.nabor_list{
+    font-family: "DM Sans",sans-serif;
+}
+
+
+
+
+
+

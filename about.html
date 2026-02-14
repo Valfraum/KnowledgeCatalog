@@ -1,0 +1,103 @@
+<a href="Main.html" class = "button-class">На главную</a>
+<h1 style="margin-left: 45%;">Шпаргалки</h1>
+<button onclick="topFunction()" id="myBtn" title="Перейти к началу">Вверх</button>
+<style>
+  .ss1{
+    position: relative;
+    color: var(--black);
+    transition: color 0.3s;
+  }
+.ss1:hover{
+    color: #00BFFF;
+  }
+  .button-class {
+			background-color: #00BFFF;
+			border: none;
+			color: white;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			border-radius: 4px;
+		}
+  .button-class:hover {
+    background-color:#8A2BE2;
+    transition: 0.7s;
+  }
+  #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px; 
+  z-index: 99; 
+  border: none;
+  outline: none;
+  background-color: #00BFFF;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px; 
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #555; 
+}
+</style>
+<script>
+var mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<nav>
+    <ul>
+        <li>
+            <a class="ss1" href="#phys" style="font-size: 20px;text-decoration: none;margin-left: 2%;">Физика</a>
+        </li>
+        <li>
+            <a class="ss1" href="#alg" style="font-size: 20px;text-decoration: none;margin-left: 2%;">Алгебра</a>
+        </li>
+        <li>
+            <a class="ss1" href="#geom" style="font-size: 20px;text-decoration: none;margin-left: 2%;">Геометрия</a>
+        </li>
+        <li>
+            <a class="ss1" href="#inform" style="font-size: 20px;text-decoration: none;margin-left: 2%;">Информатика</a>
+        </li>
+        <li>
+            <a class="ss1" href="#tvis" style="font-size: 20px;text-decoration: none;margin-left: 2%;">ТВИС</a>
+        </li>
+    </ul>
+</nav>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<img id="phys" src="image2/191.PNG" alt="" style="width: 45%;margin-left: 25%;">
+<img src="image2/192.PNG" alt="" style="width: 45%;margin-left: 25%;">
+<img src="image2/194.PNG" alt="" style="width: 45%;margin-left: 25%;">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<img id="alg" src="image2/195.webp" alt="" style="width: 45%;margin-left: 25%;">
+<img src="image2/196.png" alt="" style="width: 45%;margin-left: 25%;">
+<img src="image2/197.webp" alt="" style="width: 45%;margin-left: 25%;">
+<img src="image2/198.jpg" alt="" style="width: 45%;margin-left: 25%;">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<img id="geom" src="image2/201.gif" alt="" style="width: 40%;margin-left: 25%;">
+<img src="image2/202.jpg" alt="" style="width: 40%;margin-left: 25%;">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<img id="inform" src="image2/203.png" alt="" style="width: 40%;margin-left: 25%;">
+<img src="image2/204.png" alt="" style="width: 40%;margin-left: 25%;">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<img id="tvis" src="image2/205.jpg" alt="" style="width: 40%;margin-left: 25%;">
+
+
